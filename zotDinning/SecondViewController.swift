@@ -122,7 +122,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             performSegueWithIdentifier("transfer", sender: self)
 
         }
-        
+    
        selectedDLabel = self.menuItems[indexPath.row].name
        retailImages = UIImage(named: menuItems[indexPath.row].image)
         
