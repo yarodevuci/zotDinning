@@ -4,7 +4,7 @@
 //
 //  Created by Yaro on 12/18/15.
 //  Copyright © 2015 Yaro. All rights reserved.
-//
+//  Retail Display
 
 import Foundation
 import UIKit
