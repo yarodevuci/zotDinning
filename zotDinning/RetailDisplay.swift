@@ -11,7 +11,7 @@ import UIKit
 
 class RetailDisplay: UIViewController {
     
-    
+    //Declaring variables 
     @IBOutlet weak var retailDisplayScrollView: UIScrollView!
     @IBOutlet weak var retailImage: UIImageView!
     
