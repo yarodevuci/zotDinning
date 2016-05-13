@@ -8,14 +8,14 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate
+    {
     
     @IBOutlet weak var myButton: UIButton!
     var ResidentialPlacesArray = ["Lot 5", "Brandywine", "Pippin"]
     var ResidentialImagesArray = ["Lot5.jpg", "Brandywine.jpg", "Pippin.jpg"]
     
     weak var ResTableView: UITableView!
-    
     
     internal func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
