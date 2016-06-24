@@ -9,7 +9,7 @@
 import UIKit
 
 class Lot5ViewController: UIViewController {
-
+    
     
     @IBOutlet weak var webPage: UIWebView!
     
@@ -35,23 +35,21 @@ class Lot5ViewController: UIViewController {
     
     @IBAction func backButton(sender: UIBarButtonItem) {
         let next = self.storyboard?.instantiateViewControllerWithIdentifier("FirstViewController") as! FirstViewController
-        self.presentViewController(next, animated: true, completion: nil)
-        
+         self.presentViewController(next, animated: true, completion: nil)
     }
     
     func backToLot5(sender: UIBarButtonItem!) {
         let next = self.storyboard?.instantiateViewControllerWithIdentifier("Lot5ViewController") as! Lot5ViewController
         self.presentViewController(next, animated: true, completion: nil)
-        
     }
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
         //this block of code will keep status bar visible and scroll view will go under it
         let statusFrame = CGRectMake(0.0, 0, self.view.bounds.size.width,
-            UIApplication.sharedApplication().statusBarFrame.size.height)
+                                     UIApplication.sharedApplication().statusBarFrame.size.height)
         let statusBar = UIView(frame: statusFrame)
         statusBar.backgroundColor = UIColor.whiteColor()
         self.view.addSubview(statusBar)
@@ -72,8 +70,8 @@ class Lot5ViewController: UIViewController {
     
     func webViewDidFinishLoad (_ : UIWebView)
     {
-     self.progressIndicator.stopAnimating()
-     self.lot5ScrollView.userInteractionEnabled = true
+        self.progressIndicator.stopAnimating()
+        self.lot5ScrollView.userInteractionEnabled = true
     }
     
     
@@ -82,5 +80,5 @@ class Lot5ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
+    
 }

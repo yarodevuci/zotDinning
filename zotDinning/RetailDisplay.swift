@@ -35,18 +35,11 @@ class RetailDisplay: UIViewController {
     
     
     @IBAction func backButton(sender: UIBarButtonItem) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
-        self.presentViewController(next, animated: true, completion: nil)
+        self.dismissViewControllerAnimated(true, completion: nil)
     }
     
     override func viewDidLoad() {
-        
-        
-        let statusFrame = CGRectMake(0.0, 0, self.view.bounds.size.width, UIApplication.sharedApplication().statusBarFrame.size.height)
-        let statusBar = UIView(frame: statusFrame)
-        statusBar.backgroundColor = UIColor.whiteColor()
-        self.view.addSubview(statusBar)
-        
+    
         retailDisplayScrollView.contentSize.height = 850
     
         navbar.topItem!.title = titleName
