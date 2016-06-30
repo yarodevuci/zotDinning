@@ -21,5 +21,5 @@ Features:
 ✔ Prices (For Residential Dining)
 
 This is an unofficial mobile app was created by Yaroslav Dukal, a senior student at UCI.
-<pre>
+
 
