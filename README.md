@@ -19,5 +19,7 @@ Features:
 ✔ Location
 ✔ Phone Number, email
 ✔ Prices (For Residential Dining)
-<pre>
+
 This is an unofficial mobile app was created by Yaroslav Dukal, a senior student at UCI.
+<pre>
+
