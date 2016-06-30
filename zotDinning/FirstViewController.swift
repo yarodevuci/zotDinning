@@ -112,25 +112,6 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
             
         }
     }
-    
-//    func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
-//        
-//        let selectedTag: Int = (tabBar.selectedItem?.tag)!
-//        
-//        switch selectedTag
-//        {
-//        case 1:
-//            let next = self.storyboard?.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
-//            self.presentViewController(next, animated: true, completion: nil)
-//        case 2:
-//            let next = self.storyboard?.instantiateViewControllerWithIdentifier("MapViewController") as! MapViewController
-//            self.presentViewController(next, animated: true, completion: nil)
-//            
-//        default:
-//            break
-//            
-//        }
-//    }
 
     @IBAction func RetailButton(sender: UIButton) {
         let next = self.storyboard?.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
