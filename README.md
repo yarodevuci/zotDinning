@@ -1,5 +1,4 @@
 # zotDinning
-iOS app done in Swift 
 
 <br>
 <img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Simulator%20Screen%20Shot%20Jun%2030,%202016,%202.36.56%20AM.png?raw=true" />
@@ -21,6 +20,9 @@ Features:
 ✔ Phone Number, email
 ✔ Prices (For Residential Dining)
 <pre>
+
+<p>
 *****
 This is an unofficial mobile app was created by Yaroslav Dukal, a senior student at UCI.
  
+<p>
