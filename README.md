@@ -10,9 +10,9 @@ iOS app done in Swift
 Never go hungry on campus again!
 
 Anteater Dining for iPhone users lets students see the menus, hours, location, and more for the retail and residential eating places on campus.
-
-Features:\n
-✔ Map of most locations (more locations coming soon!)\n
+<pre>
+Features:
+✔ Map of most locations (more locations coming soon!)
 ✔ Menus (For Residential Dining only)
 ✔ Hours of operation
 ✔ Open/Closed Status
@@ -20,7 +20,7 @@ Features:\n
 ✔ Location
 ✔ Phone Number, email
 ✔ Prices (For Residential Dining)
-
+<pre>
 *****
 This is an unofficial mobile app was created by Yaroslav Dukal, a senior student at UCI.
  
