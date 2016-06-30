@@ -11,7 +11,7 @@ Never go hungry on campus again!
 
 Anteater Dining for iPhone users lets students see the menus, hours, location, and more for the retail and residential eating places on campus.
 
-Features:
+Features:\n
 ✔ Map of most locations (more locations coming soon!)\n
 ✔ Menus (For Residential Dining only)
 ✔ Hours of operation
