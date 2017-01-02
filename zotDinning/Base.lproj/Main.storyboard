@@ -1,11 +1,15 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9pv-A4-QxB">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9pv-A4-QxB">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
         <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--Pippin View Controller-->
@@ -25,18 +29,18 @@
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Taq-YF-Y7U">
                                         <rect key="frame" x="142" y="242" width="37" height="37"/>
-                                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </activityIndicatorView>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aYg-PB-Yd1">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="586"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="delegate" destination="OEr-1p-1DL" id="wiC-b9-Fxp"/>
                                         </connections>
                                     </webView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bj-mL-aOC">
                                         <rect key="frame" x="0.0" y="55" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="gYQ-dM-Wan"/>
                                         </constraints>
@@ -45,7 +49,7 @@
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Fd0-FV-c2s" userLabel="Operation HoursText">
                                         <rect key="frame" x="0.0" y="78" width="320" height="204"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Monday - Friday
 Breakfast: 7:15 am - 10:00 am
 Continental: 10:00 am - 11:00 am
@@ -62,7 +66,7 @@ Dinner: 5:00 pm - 8:00 pm</string>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Contact info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbY-Do-6Jq">
                                         <rect key="frame" x="0.0" y="455" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="8JJ-Ny-doL"/>
                                         </constraints>
@@ -71,7 +75,7 @@ Dinner: 5:00 pm - 8:00 pm</string>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Description and Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sy6-hx-nn5">
                                         <rect key="frame" x="0.0" y="283" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="Ud4-u7-Aj0"/>
                                         </constraints>
@@ -80,13 +84,13 @@ Dinner: 5:00 pm - 8:00 pm</string>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7p-nf-HIW">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
-                                        <color key="backgroundColor" red="0.070582355779999995" green="0.25006551399999999" blue="0.91921629579999997" alpha="0.98659131209999995" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.070582355779999995" green="0.25006551399999999" blue="0.91921629579999997" alpha="0.98659131209999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="rUa-h4-drV"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="MENU">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="PippinMenuButton:" destination="OEr-1p-1DL" eventType="touchUpInside" id="c38-Lm-ntp"/>
@@ -94,7 +98,7 @@ Dinner: 5:00 pm - 8:00 pm</string>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="enW-cI-TtD" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="305" width="320" height="150"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="150" id="UyZ-Rr-0c5"/>
                                         </constraints>
@@ -108,7 +112,7 @@ Irvine, CA 92697</string>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ifb-9G-Qjh" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="477" width="320" height="109"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="109" id="hjU-h9-7s0"/>
                                         </constraints>
@@ -168,7 +172,7 @@ Irvine, CA 92697</string>
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="rYs-mP-tKo" secondAttribute="trailing" id="Cfe-rg-oCh"/>
                             <constraint firstItem="rYs-mP-tKo" firstAttribute="trailing" secondItem="Mt1-02-XG7" secondAttribute="trailing" id="Ih0-Wr-GzA"/>
@@ -179,7 +183,6 @@ Irvine, CA 92697</string>
                             <constraint firstItem="rYs-mP-tKo" firstAttribute="top" secondItem="Mt1-02-XG7" secondAttribute="bottom" id="yBr-AV-lYk"/>
                         </constraints>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="650"/>
                     <connections>
@@ -191,7 +194,7 @@ Irvine, CA 92697</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kee-6e-PDg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-317" y="-164"/>
+            <point key="canvasLocation" x="-166" y="-180"/>
         </scene>
         <!--First View Controller-->
         <scene sceneID="hNz-n2-bh7">
@@ -207,7 +210,7 @@ Irvine, CA 92697</string>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="152" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="skP-VZ-QIK">
                                 <rect key="frame" x="-4" y="64" width="328" height="455"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" rowHeight="160" id="rKm-0q-vaH" customClass="ResidentialTableViewCell" customModule="zotDinning" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="328" height="160"/>
@@ -218,7 +221,7 @@ Irvine, CA 92697</string>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llf-yF-Rdc">
                                                     <rect key="frame" x="4" y="0.0" width="240" height="19"/>
-                                                    <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="19" id="Niw-qN-YLC"/>
                                                     </constraints>
@@ -230,12 +233,12 @@ Irvine, CA 92697</string>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Closed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Zr-cA-Xdg">
                                                     <rect key="frame" x="244" y="0.0" width="84" height="19"/>
-                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="84" id="2XS-5G-GUQ"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <color key="textColor" red="1" green="0.18758580289999999" blue="0.14589376079999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="1" green="0.18758580289999999" blue="0.14589376079999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -272,9 +275,9 @@ Irvine, CA 92697</string>
                             </navigationBar>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qSd-hP-JZy">
                                 <rect key="frame" x="0.0" y="519" width="320" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items/>
-                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="6Aa-tg-BZv"/>
                                 </connections>
@@ -283,7 +286,7 @@ Irvine, CA 92697</string>
                                 <rect key="frame" x="115" y="529" width="91" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Retail">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="RetailButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="2Xa-MM-t4y"/>
@@ -302,14 +305,14 @@ Irvine, CA 92697</string>
                                 <rect key="frame" x="223" y="529" width="91" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Map">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="mapButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="kB9-zb-lcm"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Yad-gg-1fT" firstAttribute="baseline" secondItem="Jbn-44-D8e" secondAttribute="firstBaseline" id="14s-uX-bnY"/>
                             <constraint firstAttribute="trailing" secondItem="qSd-hP-JZy" secondAttribute="trailing" id="DMq-cY-PPW"/>
@@ -336,7 +339,6 @@ Irvine, CA 92697</string>
                             <constraint firstItem="AjN-ja-M0g" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" id="zNh-bF-BzM"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="ResTableView" destination="skP-VZ-QIK" id="iym-7f-fpE"/>
                         <outlet property="myButton" destination="OuJ-bV-Kdg" id="pAp-7P-4kG"/>
@@ -344,7 +346,7 @@ Irvine, CA 92697</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1432" y="-205"/>
+            <point key="canvasLocation" x="-2017" y="-169"/>
         </scene>
         <!--Lot5 View Controller-->
         <scene sceneID="KiF-wM-5uH">
@@ -363,11 +365,11 @@ Irvine, CA 92697</string>
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Mmx-Fb-FTm">
                                         <rect key="frame" x="142" y="242" width="37" height="37"/>
-                                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </activityIndicatorView>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dT4-Dq-sYs">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="577"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="delegate" destination="6q6-BH-wHS" id="Niy-pu-XoT"/>
                                         </connections>
@@ -378,12 +380,12 @@ Irvine, CA 92697</string>
                                             <constraint firstAttribute="height" constant="53" id="1dh-Oc-0Pa"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="743-yF-z2J">
                                         <rect key="frame" x="0.0" y="55" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="cvp-KB-h7t"/>
                                         </constraints>
@@ -392,7 +394,7 @@ Irvine, CA 92697</string>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Description and Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q10-1H-exQ">
                                         <rect key="frame" x="0.0" y="279" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="69v-Fe-4YM"/>
                                         </constraints>
@@ -401,7 +403,7 @@ Irvine, CA 92697</string>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BPC-Zy-ZXh" userLabel="Operation HoursText">
                                         <rect key="frame" x="0.0" y="78" width="320" height="200"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Monday - Friday
 Breakfast: 7:15 am - 10:00 am
 Continental: 10:00 am - 11:00 am
@@ -419,7 +421,7 @@ Dinner: 5:00 pm - 8:00 pm</string>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MGw-Ri-6GE" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="302" width="320" height="155"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="155" id="QAX-b6-AQw"/>
                                         </constraints>
@@ -433,7 +435,7 @@ Irvine, CA 92697-5575</string>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Contact info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DNj-Ac-NPK">
                                         <rect key="frame" x="0.0" y="456" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="b2O-2H-kIW"/>
                                         </constraints>
@@ -442,13 +444,13 @@ Irvine, CA 92697-5575</string>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Crm-Lw-77G">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
-                                        <color key="backgroundColor" red="0.070582355777522268" green="0.25006551404701349" blue="0.91921629579999997" alpha="0.98659131209999995" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.070582355777522268" green="0.25006551404701349" blue="0.91921629579999997" alpha="0.98659131209999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="bYP-o5-QjR"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="MENU">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="menuButton:" destination="6q6-BH-wHS" eventType="touchUpInside" id="PF8-tb-Mms"/>
@@ -456,7 +458,7 @@ Irvine, CA 92697-5575</string>
                                     </button>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1Tw-Ad-gDe" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="479" width="320" height="98"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Phone: 949-824-2525 
  Email: gilleramark@aramark.com</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -520,7 +522,7 @@ Irvine, CA 92697-5575</string>
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="aWA-Jz-0Cv" firstAttribute="leading" secondItem="e3W-Zg-y3c" secondAttribute="leading" id="8vK-1s-V3t"/>
                             <constraint firstItem="e3W-Zg-y3c" firstAttribute="trailing" secondItem="aWA-Jz-0Cv" secondAttribute="trailing" id="Sgk-BX-OKH"/>
@@ -531,7 +533,6 @@ Irvine, CA 92697-5575</string>
                             <constraint firstAttribute="trailing" secondItem="aWA-Jz-0Cv" secondAttribute="trailing" id="xFG-lb-s8D"/>
                         </constraints>
                     </view>
-                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="320" height="640"/>
                     <connections>
@@ -543,7 +544,7 @@ Irvine, CA 92697-5575</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mzv-MF-cdy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-989" y="-169"/>
+            <point key="canvasLocation" x="-1397" y="-182"/>
         </scene>
         <!--Brandywine View Controller-->
         <scene sceneID="fHh-xe-o2J">
@@ -574,24 +575,24 @@ Irvine, CA 92697-5575</string>
                                 <subviews>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="a0b-1A-RDE">
                                         <rect key="frame" x="142" y="242" width="37" height="37"/>
-                                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="color" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </activityIndicatorView>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kee-5C-Znp">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="504"/>
-                                        <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                        <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <outlet property="delegate" destination="pH6-iE-P5n" id="Dmw-Jv-X1L"/>
                                         </connections>
                                     </webView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0IY-93-yjE">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
-                                        <color key="backgroundColor" red="0.070582355779999995" green="0.25006551399999999" blue="0.91921629579999997" alpha="0.98659131209999995" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.070582355779999995" green="0.25006551399999999" blue="0.91921629579999997" alpha="0.98659131209999995" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="55" id="LYH-lq-9fD"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                         <state key="normal" title="MENU">
-                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="menuButton:" destination="pH6-iE-P5n" eventType="touchUpInside" id="Wo4-69-baf"/>
@@ -599,7 +600,7 @@ Irvine, CA 92697-5575</string>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9en-Gv-7wN">
                                         <rect key="frame" x="0.0" y="55" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="kRJ-Lh-oPx"/>
                                         </constraints>
@@ -608,7 +609,7 @@ Irvine, CA 92697-5575</string>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="WD9-ZE-N0e" userLabel="Operation HoursText">
                                         <rect key="frame" x="0.0" y="78" width="320" height="67"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Monday - Thursday: 10:30 am - 12:00 am
 Friday: 10:30 am - 9:00 pm
 Saturday - Sunday: Closed</string>
@@ -617,7 +618,7 @@ Saturday - Sunday: Closed</string>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tdc-aa-K34" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="167" width="320" height="161"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Brandywine Commons is one of our three all-you-care-to-eat locations, located off our ring road by Middle Earth, featuring made-to-order burgers, home-style favorites, shakes, create your own deli and student favorites!
 
 557 East Peltason Drive
@@ -628,7 +629,7 @@ Irvine, 92697</string>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Contact info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNJ-Xb-8gb">
                                         <rect key="frame" x="0.0" y="327" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="BDK-as-GWg"/>
                                         </constraints>
@@ -637,13 +638,13 @@ Irvine, 92697</string>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Description and Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yKW-3s-pH0">
                                         <rect key="frame" x="0.0" y="144" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="d1V-Tw-d5e" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="349" width="320" height="155"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <string key="text">Phone: 949-824-8631
  Email: giardini-mark@aramark.com</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -687,7 +688,7 @@ Irvine, 92697</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hmU-8f-XSh" firstAttribute="trailing" secondItem="7m0-Lq-p2z" secondAttribute="trailing" id="GK2-lo-fzX"/>
                             <constraint firstAttribute="trailing" secondItem="hmU-8f-XSh" secondAttribute="trailing" id="NC4-q0-S44"/>
@@ -698,7 +699,6 @@ Irvine, 92697</string>
                             <constraint firstItem="hmU-8f-XSh" firstAttribute="top" secondItem="9wr-q3-hBJ" secondAttribute="top" constant="64" id="mE4-V4-ipL"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="BrandyScrollView" destination="hmU-8f-XSh" id="0yX-Qi-Obs"/>
                         <outlet property="backButton" destination="KXw-LO-aQb" id="UsR-b7-5lq"/>
@@ -708,7 +708,7 @@ Irvine, 92697</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3vC-2a-sTY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-655" y="-205"/>
+            <point key="canvasLocation" x="-769" y="-172"/>
         </scene>
         <!--Map-->
         <scene sceneID="w9P-mG-sl5">
@@ -727,12 +727,12 @@ Irvine, 92697</string>
                             </mapView>
                             <tabBar contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Y7O-0T-xhr">
                                 <rect key="frame" x="0.0" y="517" width="320" height="51"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="MM3-uM-SgE"/>
                                 </constraints>
                                 <items/>
-                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <variation key="default">
                                     <mask key="constraints">
                                         <exclude reference="MM3-uM-SgE"/>
@@ -749,7 +749,7 @@ Irvine, 92697</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Residential">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="residentialButton:" destination="kXx-x3-ydU" eventType="touchUpInside" id="zgM-yN-MqO"/>
@@ -759,7 +759,7 @@ Irvine, 92697</string>
                                 <rect key="frame" x="115" y="526" width="91" height="33"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Retail">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="retailButton:" destination="kXx-x3-ydU" eventType="touchUpInside" id="9os-Oy-IUi"/>
@@ -771,7 +771,7 @@ Irvine, 92697</string>
                                 <state key="normal" title="Map"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="Ayv-UH-gWo" firstAttribute="baseline" secondItem="1dR-pP-6ta" secondAttribute="baseline" id="38x-KB-sek"/>
                             <constraint firstItem="Ayv-UH-gWo" firstAttribute="baseline" secondItem="5T8-Um-RzE" secondAttribute="firstBaseline" id="5kY-Br-iDd"/>
@@ -798,7 +798,6 @@ Irvine, 92697</string>
                     </view>
                     <tabBarItem key="tabBarItem" title="Map" image="first" id="iWf-SK-soW"/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="Map" destination="tFq-Vc-dbZ" id="hGQ-pV-Jpk"/>
                         <outlet property="TabBar" destination="Y7O-0T-xhr" id="nj5-bl-lor"/>
@@ -807,7 +806,7 @@ Irvine, 92697</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z82-wL-eP5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1003" y="478"/>
+            <point key="canvasLocation" x="-1431" y="589"/>
         </scene>
         <!--Retail-->
         <scene sceneID="wg7-f3-ORb">
@@ -829,7 +828,7 @@ Irvine, 92697</string>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-QI-ic6">
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search place" id="De5-Ma-bRx">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
@@ -852,7 +851,7 @@ Irvine, 92697</string>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BC's Cavern" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CHS-t1-MWv">
                                                     <rect key="frame" x="103" y="15" width="217" height="40"/>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
-                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PandaExpress" translatesAutoresizingMaskIntoConstraints="NO" id="8wp-nX-FHd">
@@ -885,9 +884,9 @@ Irvine, 92697</string>
                             </tableView>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znd-Bw-gix">
                                 <rect key="frame" x="0.0" y="618" width="375" height="49"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items/>
-                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <connections>
                                     <outlet property="delegate" destination="8rJ-Kc-sve" id="ZJI-IU-l93"/>
                                 </connections>
@@ -900,7 +899,7 @@ Irvine, 92697</string>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Residential">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="residentialButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="usw-9U-orI"/>
@@ -915,14 +914,14 @@ Irvine, 92697</string>
                                 <rect key="frame" x="278" y="628" width="91" height="30"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Map">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="mapButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="bFe-31-lew"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="BAq-QI-ic6" firstAttribute="trailing" secondItem="za7-9b-PA0" secondAttribute="trailing" id="1Ma-fd-eie"/>
                             <constraint firstItem="lIv-dS-EGx" firstAttribute="baseline" secondItem="bc3-ty-Sst" secondAttribute="firstBaseline" id="4rL-is-bhe"/>
@@ -972,7 +971,7 @@ Irvine, 92697</string>
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-1499.5" y="485.5"/>
+            <point key="canvasLocation" x="-2227" y="567"/>
         </scene>
         <!--Retail Display-->
         <scene sceneID="2Dz-V5-V33">
@@ -997,7 +996,7 @@ Irvine, 92697</string>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Hours" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="had-gf-GO7">
                                         <rect key="frame" x="0.0" y="147" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="m56-Ec-DbO"/>
                                         </constraints>
@@ -1006,7 +1005,7 @@ Irvine, 92697</string>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g4X-LD-Nm7">
                                         <rect key="frame" x="0.0" y="249" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="RSw-ab-VCQ"/>
                                         </constraints>
@@ -1015,7 +1014,7 @@ Irvine, 92697</string>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Adx-zj-r6Q" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="274" width="320" height="140"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="140" id="Ptt-jm-Ftg"/>
                                         </constraints>
@@ -1025,7 +1024,7 @@ Irvine, 92697</string>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LY6-Wc-SQO">
                                         <rect key="frame" x="0.0" y="417" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="v9d-TC-J0F"/>
                                         </constraints>
@@ -1034,7 +1033,7 @@ Irvine, 92697</string>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="PG1-8Y-eWl" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="439" width="320" height="71"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="71" id="KPo-7B-TSn"/>
                                         </constraints>
@@ -1046,7 +1045,7 @@ Irvine, CA 92697</string>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ONH-5Y-3Fl">
                                         <rect key="frame" x="0.0" y="510" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="7Oz-xN-FoW"/>
                                         </constraints>
@@ -1055,7 +1054,7 @@ Irvine, CA 92697</string>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Phone: 949-824-2523" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gxk-br-X75" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="532" width="320" height="38"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="90T-SJ-U3w"/>
                                         </constraints>
@@ -1065,7 +1064,7 @@ Irvine, CA 92697</string>
                                     </textView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcr-Dc-D87">
                                         <rect key="frame" x="0.0" y="571" width="320" height="22"/>
-                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="backgroundColor" red="0.81393842709999997" green="0.81393842709999997" blue="0.81393842709999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="22" id="wWq-85-xf1"/>
                                         </constraints>
@@ -1074,7 +1073,7 @@ Irvine, CA 92697</string>
                                     </label>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qfd-C8-Rcw" userLabel="DescriptionText">
                                         <rect key="frame" x="0.0" y="593" width="320" height="38"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="38" id="es0-qX-zTz"/>
                                         </constraints>
@@ -1084,7 +1083,7 @@ Irvine, CA 92697</string>
                                     </textView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" text="Monday - Thursday: 7:30 am - 8:00 pm  Friday: 7:30 am - 5:00 pm  Saturday &amp; Sunday: Closed" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FcR-p5-vMX" userLabel="Operation HoursText">
                                         <rect key="frame" x="0.0" y="169" width="320" height="78"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="78" id="Ijk-gO-Yci"/>
                                         </constraints>
@@ -1149,7 +1148,7 @@ Irvine, CA 92697</string>
                                 </items>
                             </navigationBar>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="hXY-ZQ-jm9" firstAttribute="trailing" secondItem="FKh-s1-XEr" secondAttribute="trailing" id="Fo1-4x-maL"/>
                             <constraint firstItem="hXY-ZQ-jm9" firstAttribute="leading" secondItem="FKh-s1-XEr" secondAttribute="leading" id="G3z-8H-pO8"/>
@@ -1186,7 +1185,7 @@ Irvine, CA 92697</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BHC-3i-MQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-625" y="590"/>
+            <point key="canvasLocation" x="-641" y="663"/>
         </scene>
     </scenes>
     <resources>
