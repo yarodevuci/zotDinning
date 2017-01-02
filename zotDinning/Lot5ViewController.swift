@@ -17,15 +17,15 @@ class Lot5ViewController: UIViewController {
     @IBOutlet weak var lot5ScrollView: UIScrollView!
     
     @IBOutlet weak var backButtonOutlet: UIBarButtonItem!
-    @IBAction func menuButton(sender: UIButton) {
+    @IBAction func menuButton(_ sender: UIButton) {
         
-        let link = NSURL(string: "https://uci.campusdish.com/Commerce/Catalog/Menus.aspx?LocationId=3056")
-        webPage.loadRequest(NSURLRequest(URL: link!))
-        lot5ScrollView.bringSubviewToFront(webPage)
-        lot5ScrollView.bringSubviewToFront(progressIndicator)
+        let link = URL(string: "https://uci.campusdish.com/Commerce/Catalog/Menus.aspx?LocationId=3056")
+        webPage.loadRequest(URLRequest(url: link!))
+        lot5ScrollView.bringSubview(toFront: webPage)
+        lot5ScrollView.bringSubview(toFront: progressIndicator)
         
         
-        self.backButtonOutlet.tintColor = UIColor.blackColor()
+        self.backButtonOutlet.tintColor = UIColor.black
         self.backButtonOutlet.image = UIImage(named: "backArrow.png")
         self.backButtonOutlet.title = ""
         
@@ -33,14 +33,14 @@ class Lot5ViewController: UIViewController {
         
     }
     
-    @IBAction func backButton(sender: UIBarButtonItem) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("FirstViewController") as! FirstViewController
-         self.presentViewController(next, animated: true, completion: nil)
+    @IBAction func backButton(_ sender: UIBarButtonItem) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+         self.present(next, animated: true, completion: nil)
     }
     
-    func backToLot5(sender: UIBarButtonItem!) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("Lot5ViewController") as! Lot5ViewController
-        self.presentViewController(next, animated: true, completion: nil)
+    func backToLot5(_ sender: UIBarButtonItem!) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "Lot5ViewController") as! Lot5ViewController
+        self.present(next, animated: true, completion: nil)
     }
     
     
@@ -48,16 +48,16 @@ class Lot5ViewController: UIViewController {
         super.viewDidLoad()
         
         //this block of code will keep status bar visible and scroll view will go under it
-        let statusFrame = CGRectMake(0.0, 0, self.view.bounds.size.width,
-                                     UIApplication.sharedApplication().statusBarFrame.size.height)
+        let statusFrame = CGRect(x: 0.0, y: 0, width: self.view.bounds.size.width,
+                                     height: UIApplication.shared.statusBarFrame.size.height)
         let statusBar = UIView(frame: statusFrame)
-        statusBar.backgroundColor = UIColor.whiteColor()
+        statusBar.backgroundColor = UIColor.white
         self.view.addSubview(statusBar)
         
         lot5ScrollView.contentSize.height = 550
         
         //Scale the progressBar Indicator
-        let transform : CGAffineTransform = CGAffineTransformMakeScale(1.5, 1.5)
+        let transform : CGAffineTransform = CGAffineTransform(scaleX: 1.5, y: 1.5)
         progressIndicator.transform = transform
         
     }
@@ -65,13 +65,13 @@ class Lot5ViewController: UIViewController {
     func webViewDidStartLoad (_ :UIWebView)
     {
         self.progressIndicator.startAnimating()
-        self.lot5ScrollView.userInteractionEnabled = false
+        self.lot5ScrollView.isUserInteractionEnabled = false
     }
     
     func webViewDidFinishLoad (_ : UIWebView)
     {
         self.progressIndicator.stopAnimating()
-        self.lot5ScrollView.userInteractionEnabled = true
+        self.lot5ScrollView.isUserInteractionEnabled = true
     }
     
     

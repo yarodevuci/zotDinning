@@ -34,8 +34,8 @@ class RetailDisplay: UIViewController {
     var email:String = ""
     
     
-    @IBAction func backButton(sender: UIBarButtonItem) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func backButton(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

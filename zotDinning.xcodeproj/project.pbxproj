@@ -120,7 +120,8 @@
 				TargetAttributes = {
 					5BA8A9411C07085000D85A6F = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = BA563F9L5K;
+						DevelopmentTeam = BC9BB978A8;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -280,11 +281,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BC9BB978A8;
 				INFOPLIST_FILE = zotDinning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yaro-inc.zotDinning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -292,11 +295,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BC9BB978A8;
 				INFOPLIST_FILE = zotDinning/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.yaro-inc.zotDinning";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

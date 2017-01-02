@@ -66,9 +66,9 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     
     
     
-    internal func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        if self.resultSearch.active
+        if self.resultSearch.isActive
         {
             return self.menuItemsFiltered.count
         }
@@ -79,11 +79,11 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     //Display info in our Residential cells
-    internal func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCellWithIdentifier("RetailCell", forIndexPath: indexPath) as! ResidentialTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "RetailCell", for: indexPath) as! ResidentialTableViewCell
         
-                if self.resultSearch.active
+                if self.resultSearch.isActive
                 {
                     cell.RetailLabel.text = menuItemsFiltered[indexPath.row].name
                     cell.RetailImage.image = UIImage(named: menuItemsFiltered[indexPath.row].image)
@@ -106,9 +106,9 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     var emailCafe: String?
     
     //When I click on the row, magic happens)
-    internal func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    internal func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        if resultSearch.active
+        if resultSearch.isActive
         {
             selectedDLabel = self.menuItemsFiltered[indexPath.row].name
             retailImages = UIImage(named: menuItemsFiltered[indexPath.row].image)
@@ -119,7 +119,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
             phoneNumber = self.cafeInfo[indexPath.row].phoneNumber
             emailCafe = self.cafeInfo[indexPath.row].email
 
-            performSegueWithIdentifier("transfer", sender: self)
+            performSegue(withIdentifier: "transfer", sender: self)
 
         }
     
@@ -133,16 +133,16 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
        emailCafe = self.cafeInfo[indexPath.row].email
 
         
-     performSegueWithIdentifier("transfer", sender: self)
+     performSegue(withIdentifier: "transfer", sender: self)
         
         
     }
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
         if (segue.identifier == "transfer")
         
         {
-            let vc = segue.destinationViewController as! RetailDisplay
+            let vc = segue.destination as! RetailDisplay
             vc.titleName = selectedDLabel!
             vc.retImage = retailImages!
             vc.hours = hoursCafe!
@@ -153,18 +153,18 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         }
     }
     
-    func updateSearchResultsForSearchController(searchController: UISearchController) {
+    func updateSearchResults(for searchController: UISearchController) {
         
-        self.menuItemsFiltered.removeAll(keepCapacity: false)
-        let searchText = searchController.searchBar.text!.lowercaseString
-        menuItemsFiltered = menuItems.filter {($0.name as NSString).localizedCaseInsensitiveContainsString("\(searchText)")}
+        self.menuItemsFiltered.removeAll(keepingCapacity: false)
+        let searchText = searchController.searchBar.text!.lowercased()
+        menuItemsFiltered = menuItems.filter {($0.name as NSString).localizedCaseInsensitiveContains("\(searchText)")}
         RetailTableView.reloadData()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        RetailButton.enabled = false
+        RetailButton.isEnabled = false
         
         //Properties of our searchbar
         self.resultSearch = UISearchController(searchResultsController: nil)
@@ -175,26 +175,26 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         self.RetailTableView.reloadData()
         
         //hides the search bar in the beginning
-        self.RetailTableView.scrollToRowAtIndexPath(NSIndexPath(forRow: 0, inSection: 0), atScrollPosition: UITableViewScrollPosition.Top, animated: false)
+        self.RetailTableView.scrollToRow(at: IndexPath(row: 0, section: 0), at: UITableViewScrollPosition.top, animated: false)
         
         definesPresentationContext = true
 
     }
     
     
-    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+    func numberOfSections(in tableView: UITableView) -> Int {
         
         return 1
     }
     
-    @IBAction func residentialButton(sender: UIButton) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("FirstViewController") as! FirstViewController
-        self.presentViewController(next, animated: false, completion: nil)
+    @IBAction func residentialButton(_ sender: UIButton) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+        self.present(next, animated: false, completion: nil)
     }
     
-    @IBAction func mapButton(sender: UIButton) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("MapViewController") as! MapViewController
-        self.presentViewController(next, animated: false, completion: nil)
+    @IBAction func mapButton(_ sender: UIButton) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        self.present(next, animated: false, completion: nil)
     }
     
     override func didReceiveMemoryWarning() {

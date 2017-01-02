@@ -17,15 +17,15 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     
     weak var ResTableView: UITableView!
     
-    internal func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int
+    internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return ResidentialImagesArray.count
     }
     
     //Display info in our Residential cells
-    internal func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell
+    internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath) as! ResidentialTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ResidentialTableViewCell
         let entry = ResidentialPlacesArray[indexPath.row]
         let image = UIImage(named: ResidentialImagesArray[indexPath.row])
         cell.backgroundImage.image = image
@@ -37,19 +37,19 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
             cell.openStatus.text = displayStatusforLot5()
             if displayStatusforLot5() == "Open"
             {
-                cell.openStatus.textColor = UIColor.greenColor()
+                cell.openStatus.textColor = UIColor.green
             }
         case 1:
             cell.openStatus.text = displayStatusForBrandywine()
             if displayStatusForBrandywine() == "Open"
             {
-                cell.openStatus.textColor = UIColor.greenColor()
+                cell.openStatus.textColor = UIColor.green
             }
         case 2:
             cell.openStatus.text = displayStatusforLot5()
             if displayStatusforLot5() == "Open"
             {
-                cell.openStatus.textColor = UIColor.greenColor()
+                cell.openStatus.textColor = UIColor.green
             }
         default:
             break
@@ -58,12 +58,15 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         return cell
     }
     
-    func displayStatusForBrandywine () -> String
-    {
-        let dateTimeComponents = ResidentialTableViewCell().getCallendarInfo()
+    func displayStatusForBrandywine () -> String {
+        
+        let date = Date()
+        let hour = Calendar.current.component(.hour, from: date)
+        let weekday = Calendar.current.component(.weekday, from: date)
+        let minute = Calendar.current.component(.minute, from: date)
         var status: String = ""
 
-        if ((dateTimeComponents.weekday >= 2 && dateTimeComponents.weekday <= 5) && (dateTimeComponents.hour >= 10 && dateTimeComponents.hour <= 23) && (dateTimeComponents.minute <= 59 && dateTimeComponents.hour != 0) || ((dateTimeComponents.weekday == 6 && dateTimeComponents.hour >= 10 && dateTimeComponents.minute >= 30 && dateTimeComponents.hour <= 21) || (dateTimeComponents.weekday == 6 && dateTimeComponents.hour >= 11 && (dateTimeComponents.hour <= 21 && dateTimeComponents.minute < 0))))
+        if ((weekday >= 2 && weekday <= 5) && (hour >= 10 && hour <= 23) && (minute <= 59 && hour != 0) || ((weekday == 6 && hour >= 10 && minute >= 30 && hour <= 21) || (weekday == 6 && hour >= 11 && (hour <= 21 && minute < 0))))
         {
             status = "Open"
         }
@@ -74,12 +77,15 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         return status
     }
     
-    func displayStatusforLot5 () ->String {
+    func displayStatusforLot5 () -> String {
         
-        let dateTimeComponents = ResidentialTableViewCell().getCallendarInfo()
+        let date = Date()
+        let hour = Calendar.current.component(.hour, from: date)
+        let weekday = Calendar.current.component(.weekday, from: date)
+        let minute = Calendar.current.component(.minute, from: date)
         var status: String = ""
         
-        if ((dateTimeComponents.weekday >= 2 && dateTimeComponents.weekday <= 6 && dateTimeComponents.hour >= 7 && dateTimeComponents.hour <= 19) && (dateTimeComponents.minute <= 59))
+        if ((weekday >= 2 && weekday <= 6 && hour >= 7 && hour <= 19) && (minute <= 59))
         {
             status = "Open"
         }
@@ -91,41 +97,41 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     //When I click on the row, magic happens)
-    internal func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
+    internal func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
        let shortPath = (indexPath.row)
         
         switch shortPath {
             
         case 0:
-            let next = self.storyboard?.instantiateViewControllerWithIdentifier("Lot5ViewController") as! Lot5ViewController
-            self.presentViewController(next, animated: true, completion: nil)
+            let next = self.storyboard?.instantiateViewController(withIdentifier: "Lot5ViewController") as! Lot5ViewController
+            self.present(next, animated: true, completion: nil)
         case 1:
-            let nextRes = self.storyboard?.instantiateViewControllerWithIdentifier("BrandywineViewController") as! BrandywineViewController
-            self.presentViewController(nextRes, animated: true, completion: nil)
+            let nextRes = self.storyboard?.instantiateViewController(withIdentifier: "BrandywineViewController") as! BrandywineViewController
+            self.present(nextRes, animated: true, completion: nil)
 
         case 2: 
-            let nextPippin = self.storyboard?.instantiateViewControllerWithIdentifier("PippinViewController") as! PippinViewController
-            self.presentViewController(nextPippin, animated: true, completion: nil)
+            let nextPippin = self.storyboard?.instantiateViewController(withIdentifier: "PippinViewController") as! PippinViewController
+            self.present(nextPippin, animated: true, completion: nil)
             
         default: break
             
         }
     }
 
-    @IBAction func RetailButton(sender: UIButton) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
-            self.presentViewController(next, animated: false, completion: nil)
+    @IBAction func RetailButton(_ sender: UIButton) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+            self.present(next, animated: false, completion: nil)
     }
     
-    @IBAction func mapButton(sender: UIButton) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("MapViewController") as! MapViewController
-        self.presentViewController(next, animated: false, completion: nil)
+    @IBAction func mapButton(_ sender: UIButton) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "MapViewController") as! MapViewController
+        self.present(next, animated: false, completion: nil)
         
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-        myButton.enabled = false
+        myButton.isEnabled = false
         // Do any additional setup after loading the view, typically from a nib.
     }
     

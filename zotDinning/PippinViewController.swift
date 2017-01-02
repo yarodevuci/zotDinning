@@ -15,55 +15,55 @@ class PippinViewController: UIViewController {
     @IBOutlet weak var pippinWebView: UIWebView!
     @IBOutlet weak var backButton: UIBarButtonItem!
     
-    @IBAction func PippinMenuButton(sender: UIButton) {
+    @IBAction func PippinMenuButton(_ sender: UIButton) {
         
-        let URL = NSURL(string: "https://uci.campusdish.com/Commerce/Catalog/Menus.aspx?LocationId=4832")
-        pippinWebView.loadRequest(NSURLRequest(URL: URL!))
-        PippinScrollView.bringSubviewToFront(pippinWebView)
-        pippinWebView.backgroundColor = UIColor.whiteColor()
-        PippinScrollView.bringSubviewToFront(progressIndicator)
+        let URL = Foundation.URL(string: "https://uci.campusdish.com/Commerce/Catalog/Menus.aspx?LocationId=4832")
+        pippinWebView.loadRequest(URLRequest(url: URL!))
+        PippinScrollView.bringSubview(toFront: pippinWebView)
+        pippinWebView.backgroundColor = UIColor.white
+        PippinScrollView.bringSubview(toFront: progressIndicator)
         
         self.backButton.action = NSSelectorFromString("backToPippin:")
     }
     
-    func backToPippin (sender: UIBarButtonItem)
+    func backToPippin (_ sender: UIBarButtonItem)
     {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("PippinViewController") as! PippinViewController
-        self.presentViewController(next, animated: true, completion: nil)
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "PippinViewController") as! PippinViewController
+        self.present(next, animated: true, completion: nil)
     }
     
-    @IBAction func backBtn(sender: UIBarButtonItem) {
+    @IBAction func backBtn(_ sender: UIBarButtonItem) {
         
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("FirstViewController") as! FirstViewController
-        self.presentViewController(next, animated: true, completion: nil)
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+        self.present(next, animated: true, completion: nil)
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let statusFrame = CGRectMake(0.0, 0, self.view.bounds.size.width,
-            UIApplication.sharedApplication().statusBarFrame.size.height)
+        let statusFrame = CGRect(x: 0.0, y: 0, width: self.view.bounds.size.width,
+            height: UIApplication.shared.statusBarFrame.size.height)
         let statusBar = UIView(frame: statusFrame)
-        statusBar.backgroundColor = UIColor.whiteColor()
+        statusBar.backgroundColor = UIColor.white
         self.view.addSubview(statusBar)
         
         PippinScrollView.contentSize.height = 850
         
         //Scales the progressIndicator to bigger size
-        let transform : CGAffineTransform = CGAffineTransformMakeScale(1.5, 1.5)
+        let transform : CGAffineTransform = CGAffineTransform(scaleX: 1.5, y: 1.5)
         progressIndicator.transform = transform
     }
     
     func webViewDidStartLoad (_ :UIWebView)
     {
-        self.PippinScrollView.userInteractionEnabled = false
+        self.PippinScrollView.isUserInteractionEnabled = false
         self.progressIndicator.startAnimating()
     }
     
     func webViewDidFinishLoad (_ : UIWebView)
     {
         self.progressIndicator.stopAnimating()
-        self.PippinScrollView.userInteractionEnabled = true
+        self.PippinScrollView.isUserInteractionEnabled = true
     }
 
 

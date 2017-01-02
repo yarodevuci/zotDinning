@@ -18,32 +18,32 @@ class ResidentialTableViewCell: UITableViewCell {
     @IBOutlet weak var RetailLabel: UILabel!
     
     
-    //Function to get calendar data
-    func getCallendarInfo () -> NSDateComponents
-    {
-        let currentDateTime = NSDate()
-        // get the user's calendar
-        let userCalendar = NSCalendar.currentCalendar()
-        // choose which date and time components are needed
-        let requestedComponents: NSCalendarUnit = [
-            NSCalendarUnit.Year,
-            NSCalendarUnit.Month,
-            NSCalendarUnit.Day,
-            NSCalendarUnit.Hour,
-            NSCalendarUnit.Minute,
-            NSCalendarUnit.Weekday
-        ]
-        // get the components
-        let dateTimeComponents = userCalendar.components(requestedComponents, fromDate: currentDateTime)
-        return dateTimeComponents
-    }
+//    //Function to get calendar data
+//    func getCallendarInfo () -> DateComponents
+//    {
+//        let currentDateTime = Date()
+//        // get the user's calendar
+//        let userCalendar = Calendar.current
+//        // choose which date and time components are needed
+//        let requestedComponents: Calendar.dateTimeComponents = [
+//            Calendar.dateTimeComponents.year,
+//            Calendar.dateTimeComponents.month,
+//            Calendar.dateTimeComponents.day,
+//            Calendar.dateTimeComponents.hour,
+//            Calendar.dateTimeComponents.minute,
+//            Calendar.dateTimeComponents.weekday
+//        ]
+//        // get the components
+//        let dateTimeComponents = (userCalendar as Calendar).components(requestedComponents, from: currentDateTime)
+//        return dateTimeComponents
+//    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
-    override func setSelected(selected: Bool, animated: Bool) {
+    override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state

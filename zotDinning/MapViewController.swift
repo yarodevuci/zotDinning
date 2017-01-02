@@ -20,7 +20,7 @@ class MapViewController: UIViewController, UITabBarDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mapButton.enabled = false
+        mapButton.isEnabled = false
         //Lot 5 Location
         let UCILocation = CLLocationCoordinate2DMake(33.645582, -117.842500)
         let Lot5Location = CLLocationCoordinate2DMake(33.651009, -117.845364) //Lot 5 Residential
@@ -107,14 +107,14 @@ class MapViewController: UIViewController, UITabBarDelegate {
     
     @IBOutlet weak var mapButton: UIButton!
     
-    @IBAction func residentialButton(sender: UIButton) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("FirstViewController") as! FirstViewController
-        self.presentViewController(next, animated: false, completion: nil)
+    @IBAction func residentialButton(_ sender: UIButton) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
+        self.present(next, animated: false, completion: nil)
     }
     
-    @IBAction func retailButton(sender: UIButton) {
-        let next = self.storyboard?.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
-        self.presentViewController(next, animated: false, completion: nil)
+    @IBAction func retailButton(_ sender: UIButton) {
+        let next = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
+        self.present(next, animated: false, completion: nil)
     }
     
     
