@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>list</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Brandywine Commons</string>
+			<key>image</key>
+			<string>Brandywine.jpg</string>
+			<key>hours</key>
+			<string>Monday - Thursday: 10:30 am - 12:00 am
+Friday: 10:30 am - 9:00 pm
+Saturday - Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
+			<key>address</key>
+			<string>557 Brandywine Rd 
+Irvine, CA 92617</string>
+			<key>phonenumber</key>
+			<string>(949) 824-8631</string>
+			<key>email</key>
+			<string>giardini-mark@aramark.com</string>
+			<key>description</key>
+			<string>Brandywine Commons is one of our three all-you-can-eat dining halls, located off of Ring Road by Middle Earth and Social Science Tower (SST), featuring made-to-order burgers and deli sandwiches, home-style favorites, shakes, seasonal selections and student favorites!</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Pippin Commons</string>
+			<key>image</key>
+			<string>Pippin.jpg</string>
+			<key>hours</key>
+			<string>Monday - Friday
+Breakfast: 7:15 am - 10:00 am
+Continental: 10:00 am - 11:00 am
+Lunch: 11:00 am - 2:00 pm 
+Light Lunch 2:00 pm 4:30 pm 
+Dinner: 4:30 pm - 8:00 pm
+
+Saturday &amp; Sunday
+Continental: 9:30 am - 11:00 am
+Brunch: 11:00 am - 3:00 pm
+Dinner: 5:00 pm - 8:00 pm</string>
+			<key>address</key>
+			<string>Pippin Commons East Peltason Drive 
+Irvine, CA 92617</string>
+			<key>phonenumber</key>
+			<string>(949) 824-2523</string>
+			<key>email</key>
+			<string>gillera-mark@aramark.com</string>
+			<key>description</key>
+			<string>Pippin Commons is one of three of our all-you-can-eat dining halls, featuring full service breakfast, lunch and dinner with international entrées, grill, deli, salad bar and more!</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>20/20 Cafe</string>
+			<key>image</key>
+			<string>20_20Cafe</string>
+			<key>hours</key>
+			<string>December 12th - December 18th
+Mon-Thu: 8am-4pm
+Fri: 8am-3pm
+Sat &amp; Sun: Closed
+
+December 19th - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Thu: 8am-4pm
+Fri: 8am-3pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Friday: 7:30 am - 4:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
+			<key>address</key>
+			<string>850 Health Sciences Rd, 
+Irvine, CA 91710</string>
+			<key>phonenumber</key>
+			<string>(949) 824-1911</string>
+			<key>email</key>
+			<string>Kuehnert-Kelly@aramark.com</string>
+			<key>description</key>
+			<string>Located inside the Hebert Gavin Eye Institute, the 20/20 Cafe is a We Proudly Serve Starbucks that offers a variety of beverages and pastries</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Au Bon Pain</string>
+			<key>image</key>
+			<string>AuBonPain</string>
+			<key>hours</key>
+			<string>WINTER BREAK HOURS
+December 12th - December 18th
+Mon-Fri: 9am-3pm
+Sat &amp; Sun: Closed
+
+December 19th - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Fri: 9am-3pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 9:00 pm
+Friday: 7:30 am - 5:00 pm
+Saturday: 7:30 am - 3:00 pm
+Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
+			<key>address</key>
+			<string>Paul Merage School of Business 
+Irvine, CA 92697</string>
+			<key>phonenumber</key>
+			<string>(949) 824-0492</string>
+			<key>email</key>
+			<string>Kuehnert-Kelly@aramark.com</string>
+			<key>description</key>
+			<string>Located in the Paul Merage School of Business, Au Bon Pain is a fast-casual bakery and café chain specializing in breakfast, hot and cold sandwiches, wraps, salads, soups and pastries. Whether you are looking to eat better or treat yourself, we&apos;ve got a seasonal menu of craveable options.</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>BC&apos;s Cavern</string>
+			<key>image</key>
+			<string>BCsCavern</string>
+			<key>hours</key>
+			<string>WINTER BREAK HOURS
+December 12th - January 8th
+CLOSED
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 8:00 pm
+Friday: 7:30 am - 5:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
+			<key>address</key>
+			<string>500 Inner Ring Rd 
+Irvine , CA 92697</string>
+			<key>phonenumber</key>
+			<string>(949) 824-2195</string>
+			<key>email</key>
+			<string>Kuehnert-Kelly@aramark.com</string>
+			<key>description</key>
+			<string>Located in between Steinhaus Hall and Howard Schneiderman Lecture Hall (HSLH), BC&apos;s Cavern overlooks the beautiful Aldrich Park and is a perfect place enjoy a delicious hot meal while studying or grab a fresh sandwich from Subway while on your way to class</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bridge Cafe</string>
+			<key>image</key>
+			<string>BridgeCafe</string>
+			<key>hours</key>
+			<string>WINTER BREAK HOURS
+December 12th - December 18th
+Mon-Fri: 7:30am-3pm
+Sat &amp; Sun: Closed
+
+December 19th - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Fri: 7:30am-3pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 6:30 pm
+Friday: 7:30 am - 4:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks</string>
+			<key>address</key>
+			<string>510 East Peltason Drive 
+Irvine, CA 92617</string>
+			<key>phonenumber</key>
+			<string>(949) 824-6285</string>
+			<key>email</key>
+			<string>Kuehnert-Kelly@aramark.com</string>
+			<key>description</key>
+			<string>Located just across East Peltason from Middle Earth Housing, Bridge Café is a We Proudly Serve Starbucks that offers a variety of beverages and pastries. This coffee house is a must-visit for any student on the East side of Ring Road near Social Ecology or Engineering.</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string></string>
+			<key>image</key>
+			<string></string>
+			<key>hours</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phonenumber</key>
+			<string></string>
+			<key>email</key>
+			<string></string>
+			<key>description</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -17,23 +17,17 @@ class RetailInfoTableViewController: UITableViewController {
     @IBOutlet weak var retailPhoneEmail: UITextView!
 
     
-    var retImage = UIImage()
-    var titleName = ""
-    var hours = ""
-    var info = ""
-    var address = ""
-    var phoneNum = ""
-    var email = ""
+    static var cafeInfo: CafeInfo!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.navigationItem.title = titleName
+        self.navigationItem.title = RetailInfoTableViewController.cafeInfo?.name
         tableView.estimatedRowHeight = 140
 
-        retailImage.image = retImage
-        retailHours.text = hours
-        retailDescription.text = info + "\n\n" + address
-        retailPhoneEmail.text = "Phone: " + phoneNum + "\n" + "Email: " + email
+        retailImage.image = UIImage(named: (RetailInfoTableViewController.cafeInfo?.imageName)!)
+        retailHours.text = RetailInfoTableViewController.cafeInfo.hours
+        retailDescription.text = RetailInfoTableViewController.cafeInfo.cafeDescription + "\n\n" + RetailInfoTableViewController.cafeInfo.address
+        retailPhoneEmail.text = "Phone: " + RetailInfoTableViewController.cafeInfo.phonenumber + "\n" + "Email: " + RetailInfoTableViewController.cafeInfo.email
 
     }
 

@@ -8,12 +8,12 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var myButton: UIButton!
     
-    var ResidentialPlacesArray = ["Lot 5", "Brandywine", "Pippin"]
-    var ResidentialImagesArray = ["Lot5.jpg", "Brandywine.jpg", "Pippin.jpg"]
+    var ResidentialPlacesArray = ["Brandywine", "Pippin"]
+    var ResidentialImagesArray = ["Brandywine.jpg", "Pippin.jpg"]
     
     weak var ResTableView: UITableView!
     

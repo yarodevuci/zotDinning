@@ -17,6 +17,10 @@
 		5BA8A94D1C07085000D85A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8A94B1C07085000D85A6F /* Main.storyboard */; };
 		5BA8A9521C07085000D85A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8A9501C07085000D85A6F /* LaunchScreen.storyboard */; };
 		C41ECA831E1E193C00C35FF7 /* RetailInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41ECA821E1E193C00C35FF7 /* RetailInfoTableViewController.swift */; };
+		C41ECA851E1E7F2B00C35FF7 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41ECA841E1E7F2B00C35FF7 /* ListTableViewController.swift */; };
+		C41ECA871E1E9CAA00C35FF7 /* List.plist in Resources */ = {isa = PBXBuildFile; fileRef = C41ECA861E1E9CAA00C35FF7 /* List.plist */; };
+		C41ECA891E1E9E9000C35FF7 /* CafeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41ECA881E1E9E9000C35FF7 /* CafeInfo.swift */; };
+		C41ECA8B1E1EA3C300C35FF7 /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41ECA8A1E1EA3C300C35FF7 /* ListTableViewCell.swift */; };
 		C4BFA1F81E1DE15D00263C6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1F71E1DE15D00263C6E /* Extensions.swift */; };
 		C4BFA1FA1E1DE74000263C6E /* Lot5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */; };
 		C4BFA1FC1E1DEB5C00263C6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */; };
@@ -37,6 +41,10 @@
 		5BA8A9511C07085000D85A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA8A9531C07085000D85A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C41ECA821E1E193C00C35FF7 /* RetailInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailInfoTableViewController.swift; sourceTree = "<group>"; };
+		C41ECA841E1E7F2B00C35FF7 /* ListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		C41ECA861E1E9CAA00C35FF7 /* List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = List.plist; sourceTree = "<group>"; };
+		C41ECA881E1E9E9000C35FF7 /* CafeInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CafeInfo.swift; sourceTree = "<group>"; };
+		C41ECA8A1E1EA3C300C35FF7 /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 		C4BFA1F71E1DE15D00263C6E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lot5TableViewController.swift; sourceTree = "<group>"; };
 		C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -79,6 +87,8 @@
 				5BA8A9471C07085000D85A6F /* FirstViewController.swift */,
 				5BA8A9491C07085000D85A6F /* SecondViewController.swift */,
 				5BA8A94B1C07085000D85A6F /* Main.storyboard */,
+				C41ECA841E1E7F2B00C35FF7 /* ListTableViewController.swift */,
+				C41ECA8A1E1EA3C300C35FF7 /* ListTableViewCell.swift */,
 				C4BFA1F71E1DE15D00263C6E /* Extensions.swift */,
 				C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */,
 				C4BFA1FD1E1DF13700263C6E /* BrandywineTableViewController.swift */,
@@ -89,6 +99,8 @@
 				5B8CD2051C1152CD0095A27E /* MapViewController.swift */,
 				5BA8A9501C07085000D85A6F /* LaunchScreen.storyboard */,
 				5BA8A9531C07085000D85A6F /* Info.plist */,
+				C41ECA861E1E9CAA00C35FF7 /* List.plist */,
+				C41ECA881E1E9E9000C35FF7 /* CafeInfo.swift */,
 				5B9A3B751C3CF0B800F10524 /* Assets.xcassets */,
 			);
 			path = zotDinning;
@@ -157,6 +169,7 @@
 				5BA8A9521C07085000D85A6F /* LaunchScreen.storyboard in Resources */,
 				5BA8A94D1C07085000D85A6F /* Main.storyboard in Resources */,
 				5B9A3B761C3CF0B800F10524 /* Assets.xcassets in Resources */,
+				C41ECA871E1E9CAA00C35FF7 /* List.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,13 +185,16 @@
 				5B8CD1FE1C0717840095A27E /* ResidentialTableViewCell.swift in Sources */,
 				C4BFA1FA1E1DE74000263C6E /* Lot5TableViewController.swift in Sources */,
 				5B3715AC1C24EBE90086F736 /* RetailDisplay.swift in Sources */,
+				C41ECA851E1E7F2B00C35FF7 /* ListTableViewController.swift in Sources */,
 				C4BFA2001E1DF48000263C6E /* PippinTableViewController.swift in Sources */,
 				5B8CD2061C1152CD0095A27E /* MapViewController.swift in Sources */,
+				C41ECA891E1E9E9000C35FF7 /* CafeInfo.swift in Sources */,
 				C4BFA1F81E1DE15D00263C6E /* Extensions.swift in Sources */,
 				5BA8A9461C07085000D85A6F /* AppDelegate.swift in Sources */,
 				5BA8A9481C07085000D85A6F /* FirstViewController.swift in Sources */,
 				C41ECA831E1E193C00C35FF7 /* RetailInfoTableViewController.swift in Sources */,
 				C4BFA1FC1E1DEB5C00263C6E /* Constants.swift in Sources */,
+				C41ECA8B1E1EA3C300C35FF7 /* ListTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

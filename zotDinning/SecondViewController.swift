@@ -8,7 +8,7 @@
 
 import UIKit
 
-class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate, UISearchResultsUpdating {
+class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UISearchResultsUpdating {
     
     @IBOutlet weak var RetailButton: UIButton!
     @IBOutlet weak var TabBar: UITabBarItem!
@@ -124,19 +124,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
         
         
     }
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == "showRetailInfo" {
-            let vc = segue.destination as! RetailInfoTableViewController
-            vc.titleName = selectedDLabel!
-            vc.retImage = retailImages!
-            vc.hours = hoursCafe!
-            vc.info = descriptionCafe!
-            vc.address = addressCafe!
-            vc.phoneNum = phoneNumber!
-            vc.email = emailCafe!
-        }
-    }
+
     
     func updateSearchResults(for searchController: UISearchController) {
         
