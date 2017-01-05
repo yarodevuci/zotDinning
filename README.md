@@ -1,9 +1,9 @@
 # zotDinning
 
 <br>
-<img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Simulator%20Screen%20Shot%20Jun%2030,%202016,%202.36.56%20AM.png?raw=true" />
-<img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Simulator%20Screen%20Shot%20Jun%2030,%202016,%202.36.59%20AM.png?raw=true" />
-<img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Simulator%20Screen%20Shot%20Jun%2030,%202016,%202.37.04%20AM.png?raw=true" />
+<img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Screenshot%201.png?raw=true" />
+<img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Screenshot%202.png?raw=true" />
+<img height="300" src="https://github.com/yarodevuci/zotDinning/blob/master/Screenshot%203.png?raw=true" />
 <br>
 
 Never go hungry on campus again!
