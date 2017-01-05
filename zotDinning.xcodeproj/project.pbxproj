@@ -16,6 +16,7 @@
 		5BA8A94A1C07085000D85A6F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A9491C07085000D85A6F /* SecondViewController.swift */; };
 		5BA8A94D1C07085000D85A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8A94B1C07085000D85A6F /* Main.storyboard */; };
 		5BA8A9521C07085000D85A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8A9501C07085000D85A6F /* LaunchScreen.storyboard */; };
+		C41ECA831E1E193C00C35FF7 /* RetailInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41ECA821E1E193C00C35FF7 /* RetailInfoTableViewController.swift */; };
 		C4BFA1F81E1DE15D00263C6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1F71E1DE15D00263C6E /* Extensions.swift */; };
 		C4BFA1FA1E1DE74000263C6E /* Lot5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */; };
 		C4BFA1FC1E1DEB5C00263C6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */; };
@@ -35,6 +36,7 @@
 		5BA8A94C1C07085000D85A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA8A9511C07085000D85A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA8A9531C07085000D85A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C41ECA821E1E193C00C35FF7 /* RetailInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailInfoTableViewController.swift; sourceTree = "<group>"; };
 		C4BFA1F71E1DE15D00263C6E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lot5TableViewController.swift; sourceTree = "<group>"; };
 		C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5B8CD1FD1C0717840095A27E /* ResidentialTableViewCell.swift */,
 				C4BFA1FF1E1DF48000263C6E /* PippinTableViewController.swift */,
 				5B3715AB1C24EBE90086F736 /* RetailDisplay.swift */,
+				C41ECA821E1E193C00C35FF7 /* RetailInfoTableViewController.swift */,
 				5B8CD2051C1152CD0095A27E /* MapViewController.swift */,
 				5BA8A9501C07085000D85A6F /* LaunchScreen.storyboard */,
 				5BA8A9531C07085000D85A6F /* Info.plist */,
@@ -174,6 +177,7 @@
 				C4BFA1F81E1DE15D00263C6E /* Extensions.swift in Sources */,
 				5BA8A9461C07085000D85A6F /* AppDelegate.swift in Sources */,
 				5BA8A9481C07085000D85A6F /* FirstViewController.swift in Sources */,
+				C41ECA831E1E193C00C35FF7 /* RetailInfoTableViewController.swift in Sources */,
 				C4BFA1FC1E1DEB5C00263C6E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
