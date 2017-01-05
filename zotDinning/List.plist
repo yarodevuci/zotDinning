@@ -183,163 +183,284 @@ Irvine, CA 92617</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>C3 Express</string>
 			<key>image</key>
-			<string></string>
+			<string>C3Express</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - January 8th
+CLOSED
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 9:00 pm
+Friday: 7:30 am - 5:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
 			<key>address</key>
-			<string></string>
+			<string>UCI Social Science Plaza A 
+Irvine , CA 92617</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-9898</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Stop by your one-stop-shop for all things necessary for collegiate success! Whether it be a grab-n-go item between classes or health and beauty essentials, the C3 store has it all. Enjoy convenience to the 3rd power!</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Cyber A Cafe</string>
 			<key>image</key>
-			<string></string>
+			<string>CyberA</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - January 8th
+CLOSED
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 7:00 pm
+Friday: 7:30 am - 4:00 pm
+Saturday &amp; Sunday: Closed</string>
 			<key>address</key>
-			<string></string>
+			<string>Cyber A Cafe 
+Irvine, CA 92697</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-9848</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Cyber A Café proudly serves Java City ecoGrounds beverages, an assortment of tasty pastries and a number of hearty and healthy food options, such as sandwiches and wraps. Cyber A Café sits cozily in the heart of the School of the Arts.</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Espress Yourself</string>
 			<key>image</key>
-			<string></string>
+			<string>EspressYourself</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - December 18th
+Mon-Fri: 8am-3pm
+Sat &amp; Sun: Closed
+
+December 19th - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Fri: 8am-3pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 5:00 pm
+Friday: 7:30 am - 4:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
 			<key>address</key>
-			<string></string>
+			<string>3200 Education Bldg 
+Irvine , CA 92697</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-2523</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Espress Yourself, nestled in-between the School of Law and Education, offers espresso-crafted Java city beverages, fresh pastries and grab and go snacks.</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Gottschalk P.O.D.</string>
 			<key>image</key>
-			<string></string>
+			<string>Gottschalk</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - December 22nd
+Mon-Fri: 8am-4pm
+Sat &amp; Sun: Closed
+
+December 23rd - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Fri: 8am-4pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Friday: 8:00 am - 4:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
 			<key>address</key>
-			<string></string>
+			<string>1 Medical Plaza Dr 
+Irvine , CA 92617</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-2523</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Located in the Gottschalk Medical Plaza, P.O.D. Express serves freshly brewed coffee and light grab &apos;n go snacks.</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Java City Kiosk</string>
 			<key>image</key>
-			<string></string>
+			<string>JavaCity</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - December 18th
+Mon-Fri: 7:30am-3pm
+Sat &amp; Sun: Closed
+
+December 19th - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Fri: 7:30am-3pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 9:00 pm
+Friday: 7:30 am - 5:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
 			<key>address</key>
-			<string></string>
+			<string>2004 Los Trancos Dr 
+Irvine, CA 92617</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-5779</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Java City is committed to coffee excellence, with some of the freshest coffees on the planet, an ample espresso bar menu, and approachable Javanistas ready to share their expertise.</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Med Ed Cafe</string>
 			<key>image</key>
-			<string></string>
+			<string>MedEdCafe</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - December 18th
+Mon-Fri: 8am-5pm
+Sat &amp; Sun: Closed
+
+December 19th - December 22nd
+Mon-Fri: 8am-3pm
+
+December 23rd - January 2nd
+CLOSED
+
+January 3rd - January 8th
+Mon-Fri: 8am-5pm
+Sat &amp; Sun: Closed
+
+Fall Quarter 2016
+Monday - Friday: 7:30 am - 5:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
 			<key>address</key>
-			<string></string>
+			<string>1200 A Medical Education Bldg 
+Irvine, CA 92697</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-5967</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Med Ed Café proudly serves Starbucks coffee. Create your own hand-crafted beverage or try one of our recommendations! Med Ed Café also offers an assortment of pastries and grab &apos;n go items to satisfy your cravings.
+</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Taza</string>
 			<key>image</key>
-			<string></string>
+			<string>Taza</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - January 8th
+CLOSED
+
+Fall Quarter 2016
+Monday - Thursday: 7:00 am - 12:00 am
+Friday: 7:00 am - 8:00 pm
+Saturday &amp; Sunday: 9:30 am - 8:00 pm
+
+*Hours of operation are subject to change for observed holidays and breaks</string>
 			<key>address</key>
-			<string></string>
+			<string>4001 Mesa Road 
+Irvine, CA 92617</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-2190</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>Taza, located at the brand new Anteatery in Mesa Court, offers up the best of Java City&apos;s ecoGrounds coffee and espresso beverages and delicious, warm pastries. A perfect place to visit before or after an event at the Bren or class near Humanities or the Arts. </string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>The Anteatery</string>
 			<key>image</key>
-			<string></string>
+			<string>Anteatery</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - January 8th
+CLOSED
+
+Fall 2016
+Monday - Friday
+Breakfast: 7:15 am - 10:00 am
+Continental: 10:00 am - 11:00 am
+Lunch: 11:00 am - 2:00 pm
+Light Lunch: 2:00 pm - 4:30 pm
+Dinner: 4:30 pm - 8:00 pm
+
+Monday - Thursday
+Late Night: 8:00 pm - 12:00 am
+
+Saturday &amp; Sunday
+Continental: 9:30 am - 11:00 am
+Brunch: 11:00 am - 3:00 pm
+Dinner: 5:00 pm - 8:00 pm
+
+*Hours of operation are subject to change for observed holidays and breaks</string>
 			<key>address</key>
-			<string></string>
+			<string>4001 Mesa Rd. 
+Irvine, CA 92617</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-2525</string>
 			<key>email</key>
-			<string></string>
+			<string>poonpipat-joe@aramark.com</string>
 			<key>description</key>
-			<string></string>
+			<string>The Anteatery is one of three all-you-can-eat dining halls on campus featuring Mongolian grill, fresh salad &amp; fruit from the Farmer&apos;s Market, stone oven pizza along with favorites such as the grill, ice cream bar and fresh baked pastries</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string></string>
+			<string>Phoenix Food Court</string>
 			<key>image</key>
-			<string></string>
+			<string>PheonixFoodCt</string>
 			<key>hours</key>
-			<string></string>
+			<string>WINTER BREAK HOURS
+December 12th - December 18th
+Mon-Fri: 9am-3pm
+Sat &amp; Sun: Closed
+
+December 19th - January 8th
+CLOSED
+
+Fall Quarter 2016
+Monday - Thursday: 7:30 am - 8:00 pm
+Friday: 7:30 am - 5:00 pm
+Saturday &amp; Sunday: Closed
+
+*Hours of operation are subject to change for observed holidays and breaks.</string>
 			<key>address</key>
-			<string></string>
+			<string>Phoenix Food Court 
+Irvine, CA 92697</string>
 			<key>phonenumber</key>
-			<string></string>
+			<string>(949) 824-7190</string>
 			<key>email</key>
-			<string></string>
+			<string>Kuehnert-Kelly@aramark.com</string>
 			<key>description</key>
-			<string></string>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string></string>
-			<key>image</key>
-			<string></string>
-			<key>hours</key>
-			<string></string>
-			<key>address</key>
-			<string></string>
-			<key>phonenumber</key>
-			<string></string>
-			<key>email</key>
-			<string></string>
-			<key>description</key>
-			<string></string>
+			<string>Phoenix Food Court is home to a variety of places to eat, including Greens to Go, Tortilla Fresca, Grille Works and Einstein Bros. Bagels. Phoenix Food Court, located next to Social Science Tower and Inner Ring Road, boasts a great view of Aldrich Park to take in the scenery as you enjoy your meal.</string>
 		</dict>
 	</array>
 </dict>

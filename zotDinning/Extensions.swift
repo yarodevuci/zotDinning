@@ -26,13 +26,15 @@ extension UIViewController {
     
     func presentViewController(withIdentifier: String, animated: Bool) {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: withIdentifier)
-        present(vc!, animated: animated, completion: nil)
+        vc?.modalTransitionStyle = .flipHorizontal
+        present(vc!, animated: true, completion: nil)
     }
     
     func presentViewControllerWithNavBar(identifier: String, animated: Bool) {
         let vc = self.storyboard!.instantiateViewController(withIdentifier: identifier)
+        vc.modalTransitionStyle = .flipHorizontal
         let navController = UINavigationController(rootViewController: vc)
-        self.present(navController, animated: animated, completion: nil)
+        self.present(navController, animated: true, completion: nil)
     }
     
     func showAlert(title: String, message: String?) {

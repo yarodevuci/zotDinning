@@ -12,15 +12,12 @@ import CoreLocation
 
 
 class MapViewController: UIViewController, UITabBarDelegate {
-
-    @IBOutlet weak var Map: MKMapView!
-    @IBOutlet weak var TabBar: UITabBar!
     
+    @IBOutlet weak var Map: MKMapView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        mapButton.isEnabled = false
         //Lot 5 Location
         let UCILocation = CLLocationCoordinate2DMake(33.645582, -117.842500)
         let Lot5Location = CLLocationCoordinate2DMake(33.651009, -117.845364) //Lot 5 Residential
@@ -68,7 +65,7 @@ class MapViewController: UIViewController, UITabBarDelegate {
         BCsCavernAnnotation.coordinate = BCsCavern
         BCsCavernAnnotation.title = "BC's Cavern"
         BCsCavernAnnotation.subtitle = "Retail"
-      
+        
         Lot5Annotation.coordinate = Lot5Location
         BrandyAnnotation.coordinate = BrandywineLocation
         PippinAnnotation.coordinate = PippinLocation
@@ -114,6 +111,11 @@ class MapViewController: UIViewController, UITabBarDelegate {
     @IBAction func retailButton(_ sender: UIButton) {
         self.presentViewControllerWithNavBar(identifier: "SecondViewController", animated: false)
     }
+    
+    @IBAction func didTapListIcon(_ sender: Any) {
+        self.presentViewControllerWithNavBar(identifier: "ListTableViewController", animated: false)
+    }
+    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -2,11 +2,12 @@
   "images" : [
     {
       "idiom" : "universal",
+      "filename" : "iconList.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "CafeMed.jpg",
+      "filename" : "iconList@2x.png",
       "scale" : "2x"
     },
     {

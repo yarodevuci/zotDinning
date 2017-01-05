@@ -33,7 +33,7 @@ class ListTableViewController: UITableViewController {
         
         self.tableView.tableFooterView = UIView.init(frame: CGRect.zero)
         populateList()
-
+        
         
     }
     
@@ -41,6 +41,12 @@ class ListTableViewController: UITableViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    
+    @IBAction func didTapMapIcon(_ sender: Any) {
+        self.presentViewController(withIdentifier: "MapViewController", animated: false)
+    }
+    
     
     func populateList() {
         var myDict: NSDictionary?
@@ -105,7 +111,7 @@ class ListTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "ListTableViewCell") as! ListTableViewCell
-
+        
         if self.searchController.isActive {
             cell.name.text = listFiltered[indexPath.row].name
             cell.cafeImage.image = UIImage(named: listFiltered[indexPath.row].imageName)
@@ -119,10 +125,15 @@ class ListTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        RetailInfoTableViewController.cafeInfo = sections[indexPath.section][indexPath.row]
+        if self.searchController.isActive {
+            RetailInfoTableViewController.cafeInfo = listFiltered[indexPath.row]
+        } else {
+            RetailInfoTableViewController.cafeInfo = sections[indexPath.section][indexPath.row]
+        }
         
         self.pushViewController(withIdentifier: "RetailInfoTableViewController")
     }
+    
     
 }
 
