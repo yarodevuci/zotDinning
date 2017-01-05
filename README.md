@@ -8,6 +8,9 @@
 
 Never go hungry on campus again!
 
+## Available in the App Store 
+https://itunes.apple.com/us/app/uci-dining/id1100533755?ls=1&mt=8
+
 Anteater Dining for iPhone users lets students see the menus, hours, location, and more for the retail and residential eating places on campus.
 <pre>
 Features:
