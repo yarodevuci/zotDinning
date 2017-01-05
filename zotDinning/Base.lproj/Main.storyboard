@@ -378,9 +378,9 @@ Irvine, CA 92697-5575</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ayv-UH-gWo">
-                                <rect key="frame" x="100.5" y="519" width="120" height="49"/>
+                                <rect key="frame" x="130.5" y="519" width="60" height="49"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="m5k-7v-2b8"/>
+                                    <constraint firstAttribute="width" constant="60" id="m5k-7v-2b8"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Retail">
@@ -426,32 +426,22 @@ Irvine, CA 92697-5575</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Z82-wL-eP5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1849" y="560"/>
+            <point key="canvasLocation" x="-2449" y="595"/>
         </scene>
         <!--Retail-->
         <scene sceneID="wg7-f3-ORb">
             <objects>
-                <viewController storyboardIdentifier="SecondViewController" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="zotDinning" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SecondViewController" automaticallyAdjustsScrollViewInsets="NO" id="8rJ-Kc-sve" customClass="SecondViewController" customModule="zotDinning" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="L7p-HK-0SC"/>
                         <viewControllerLayoutGuide type="bottom" id="Djb-ko-YwX"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="QS5-Rx-YEW">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="za7-9b-PA0">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="64"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="64" id="gx8-ac-kNc"/>
-                                </constraints>
-                                <color key="barTintColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
-                                <items>
-                                    <navigationItem title="Retail" id="AgV-Ch-A7L"/>
-                                </items>
-                            </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="78" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-QI-ic6">
-                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 <searchBar key="tableHeaderView" contentMode="redraw" placeholder="Search place" id="De5-Ma-bRx">
@@ -506,7 +496,7 @@ Irvine, CA 92697-5575</string>
                                 </connections>
                             </tableView>
                             <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znd-Bw-gix">
-                                <rect key="frame" x="0.0" y="618" width="375" height="49"/>
+                                <rect key="frame" x="0.0" y="554" width="375" height="49"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="49" id="gKn-cR-9Ko"/>
@@ -518,7 +508,7 @@ Irvine, CA 92697-5575</string>
                                 </connections>
                             </tabBar>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bc3-ty-Sst">
-                                <rect key="frame" x="20" y="618.5" width="91" height="49"/>
+                                <rect key="frame" x="20" y="554.5" width="91" height="49"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Residential">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -528,15 +518,15 @@ Irvine, CA 92697-5575</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lIv-dS-EGx">
-                                <rect key="frame" x="127.5" y="618.5" width="120" height="49"/>
+                                <rect key="frame" x="152.5" y="554.5" width="70" height="49"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="120" id="fpF-re-HFS"/>
+                                    <constraint firstAttribute="width" constant="70" id="fpF-re-HFS"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Retail"/>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PYn-9w-21s">
-                                <rect key="frame" x="319" y="618.5" width="36" height="49"/>
+                                <rect key="frame" x="319" y="554.5" width="36" height="49"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <state key="normal" title="Map">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -554,22 +544,19 @@ Irvine, CA 92697-5575</string>
                             <constraint firstItem="bc3-ty-Sst" firstAttribute="leading" secondItem="znd-Bw-gix" secondAttribute="leading" constant="20" id="Fgo-Rn-0Xj"/>
                             <constraint firstItem="znd-Bw-gix" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="QQu-Bm-3UM"/>
                             <constraint firstItem="PYn-9w-21s" firstAttribute="height" secondItem="znd-Bw-gix" secondAttribute="height" id="SLs-Sr-mY3"/>
-                            <constraint firstItem="za7-9b-PA0" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="-20" id="SfM-Lg-EtO"/>
                             <constraint firstItem="BAq-QI-ic6" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="Vx9-hG-aFG"/>
                             <constraint firstItem="Djb-ko-YwX" firstAttribute="top" secondItem="BAq-QI-ic6" secondAttribute="bottom" constant="49" id="WwQ-Js-cyA"/>
                             <constraint firstItem="BAq-QI-ic6" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="XGG-x7-OXl"/>
-                            <constraint firstItem="za7-9b-PA0" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="cWG-Iw-27b"/>
                             <constraint firstItem="bc3-ty-Sst" firstAttribute="height" secondItem="znd-Bw-gix" secondAttribute="height" id="ftf-2r-xyK"/>
                             <constraint firstItem="znd-Bw-gix" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="lwz-qJ-LtN"/>
                             <constraint firstItem="lIv-dS-EGx" firstAttribute="centerY" secondItem="znd-Bw-gix" secondAttribute="centerY" id="mVx-rB-SIs"/>
-                            <constraint firstItem="za7-9b-PA0" firstAttribute="width" secondItem="QS5-Rx-YEW" secondAttribute="width" id="r8g-hp-8eq"/>
                             <constraint firstItem="lIv-dS-EGx" firstAttribute="height" secondItem="znd-Bw-gix" secondAttribute="height" id="raI-3g-j2A"/>
-                            <constraint firstItem="BAq-QI-ic6" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="44" id="trc-KO-ZrJ"/>
+                            <constraint firstItem="BAq-QI-ic6" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" id="trc-KO-ZrJ"/>
                             <constraint firstItem="znd-Bw-gix" firstAttribute="bottom" secondItem="Djb-ko-YwX" secondAttribute="top" id="x4a-KD-lzg"/>
                             <constraint firstItem="bc3-ty-Sst" firstAttribute="centerY" secondItem="znd-Bw-gix" secondAttribute="centerY" id="yeu-7e-oEL"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Retail" image="second" selectedImage="second" id="g1C-RJ-U0S"/>
+                    <navigationItem key="navigationItem" title="Retail" id="ZgS-ft-BCk"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="375" height="667"/>
@@ -592,7 +579,7 @@ Irvine, CA 92697-5575</string>
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-706" y="596"/>
+            <point key="canvasLocation" x="-923" y="630"/>
         </scene>
         <!--Retail Display-->
         <scene sceneID="2Dz-V5-V33">
@@ -603,11 +590,11 @@ Irvine, CA 92697-5575</string>
                         <viewControllerLayoutGuide type="bottom" id="05t-kR-6zq"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hzZ-e3-CcF">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="710"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="646"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FKh-s1-XEr">
-                                <rect key="frame" x="0.0" y="56" width="320" height="729"/>
+                                <rect key="frame" x="0.0" y="36" width="320" height="685"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ifG-fh-oL2">
                                         <rect key="frame" x="0.0" y="0.0" width="320" height="147"/>
@@ -754,7 +741,7 @@ Irvine, CA 92697</string>
                                 </connections>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hXY-ZQ-jm9">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+                                <rect key="frame" x="0.0" y="-20" width="320" height="55"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="55" id="6Ag-Z8-Hlm"/>
                                 </constraints>
@@ -806,7 +793,7 @@ Irvine, CA 92697</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BHC-3i-MQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-954" y="1535"/>
+            <point key="canvasLocation" x="83" y="653"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ZQJ-Wt-x0U">
@@ -1185,6 +1172,26 @@ Irvine, CA 92697</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MyN-Oi-d25" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1112" y="-185"/>
+        </scene>
+        <!--Retail-->
+        <scene sceneID="c9m-pY-ods">
+            <objects>
+                <navigationController storyboardIdentifier="retailRoot" automaticallyAdjustsScrollViewInsets="NO" id="A7w-fh-tmj" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Retail" image="second" selectedImage="second" id="g1C-RJ-U0S"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="vDs-x5-8Kf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.90823972225189209" green="0.92638683319091797" blue="0.9317171573638916" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="oUf-Re-0dG"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Faz-Os-RSk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1648" y="578"/>
         </scene>
     </scenes>
     <resources>

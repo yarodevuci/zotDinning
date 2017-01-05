@@ -121,13 +121,12 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
             self.pushViewController(withIdentifier: "PippinTableViewController")
         default:
             break
-            
+
         }
     }
 
     @IBAction func RetailButton(_ sender: UIButton) {
-        let next = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
-            self.present(next, animated: false, completion: nil)
+        self.presentViewControllerWithNavBar(identifier: "SecondViewController", animated: false)
     }
     
     @IBAction func mapButton(_ sender: UIButton) {

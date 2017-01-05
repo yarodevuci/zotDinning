@@ -75,8 +75,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     //Display info in our Residential cells
-    internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-    {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "RetailCell", for: indexPath) as! ResidentialTableViewCell
         
                 if self.resultSearch.isActive
@@ -157,6 +156,10 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        navigationController?.navigationBar.barTintColor = UIColor(red:0.91, green:0.93, blue:0.93, alpha:1.0)
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.tintColor = .black
         
         RetailButton.isEnabled = false
         

@@ -112,7 +112,7 @@ class MapViewController: UIViewController, UITabBarDelegate {
     }
     
     @IBAction func retailButton(_ sender: UIButton) {
-        self.presentViewController(withIdentifier: "SecondViewController", animated: false)
+        self.presentViewControllerWithNavBar(identifier: "SecondViewController", animated: false)
     }
     
     override func didReceiveMemoryWarning() {
