@@ -1,4 +1,4 @@
-# zotDinning
+# UCI Dining
 
 <br>
 <img height="500" src="https://github.com/yarodevuci/zotDinning/blob/master/Screenshot%201.png?raw=true" />
