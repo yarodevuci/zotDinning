@@ -108,37 +108,13 @@ class MapViewController: UIViewController, UITabBarDelegate {
     @IBOutlet weak var mapButton: UIButton!
     
     @IBAction func residentialButton(_ sender: UIButton) {
-        let next = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
-        self.present(next, animated: false, completion: nil)
+        self.presentViewControllerWithNavBar(identifier: "FirstViewController", animated: false)
     }
     
     @IBAction func retailButton(_ sender: UIButton) {
-        let next = self.storyboard?.instantiateViewController(withIdentifier: "SecondViewController") as! SecondViewController
-        self.present(next, animated: false, completion: nil)
+        self.presentViewController(withIdentifier: "SecondViewController", animated: false)
     }
     
-    
-    
-//    func tabBar(tabBar: UITabBar, didSelectItem item: UITabBarItem) {
-//        
-//        let selectedTag: Int = (tabBar.selectedItem?.tag)!
-//        
-//        switch selectedTag
-//        {
-//        case 0:
-//            let next = self.storyboard?.instantiateViewControllerWithIdentifier("FirstViewController") as! FirstViewController
-//            self.presentViewController(next, animated: true, completion: nil)
-//        case 1:
-//            let next = self.storyboard?.instantiateViewControllerWithIdentifier("SecondViewController") as! SecondViewController
-//            self.presentViewController(next, animated: true, completion: nil)
-//            
-//        default:
-//            break
-//            
-//        }
-//    }
-//
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

@@ -9,27 +9,24 @@
 /* Begin PBXBuildFile section */
 		5B3715AC1C24EBE90086F736 /* RetailDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B3715AB1C24EBE90086F736 /* RetailDisplay.swift */; };
 		5B8CD1FE1C0717840095A27E /* ResidentialTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD1FD1C0717840095A27E /* ResidentialTableViewCell.swift */; };
-		5B8CD2001C07C1C90095A27E /* Lot5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD1FF1C07C1C90095A27E /* Lot5ViewController.swift */; };
-		5B8CD2021C07C4520095A27E /* BrandywineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD2011C07C4520095A27E /* BrandywineViewController.swift */; };
-		5B8CD2041C1147760095A27E /* PippinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD2031C1147760095A27E /* PippinViewController.swift */; };
 		5B8CD2061C1152CD0095A27E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8CD2051C1152CD0095A27E /* MapViewController.swift */; };
-		5B8CD2081C11701A0095A27E /* rsz_cpg-foods-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B8CD2071C11701A0095A27E /* rsz_cpg-foods-icon.png */; };
 		5B9A3B761C3CF0B800F10524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B9A3B751C3CF0B800F10524 /* Assets.xcassets */; };
 		5BA8A9461C07085000D85A6F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A9451C07085000D85A6F /* AppDelegate.swift */; };
 		5BA8A9481C07085000D85A6F /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A9471C07085000D85A6F /* FirstViewController.swift */; };
 		5BA8A94A1C07085000D85A6F /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA8A9491C07085000D85A6F /* SecondViewController.swift */; };
 		5BA8A94D1C07085000D85A6F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8A94B1C07085000D85A6F /* Main.storyboard */; };
 		5BA8A9521C07085000D85A6F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA8A9501C07085000D85A6F /* LaunchScreen.storyboard */; };
+		C4BFA1F81E1DE15D00263C6E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1F71E1DE15D00263C6E /* Extensions.swift */; };
+		C4BFA1FA1E1DE74000263C6E /* Lot5TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */; };
+		C4BFA1FC1E1DEB5C00263C6E /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */; };
+		C4BFA1FE1E1DF13700263C6E /* BrandywineTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1FD1E1DF13700263C6E /* BrandywineTableViewController.swift */; };
+		C4BFA2001E1DF48000263C6E /* PippinTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4BFA1FF1E1DF48000263C6E /* PippinTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5B3715AB1C24EBE90086F736 /* RetailDisplay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailDisplay.swift; sourceTree = "<group>"; };
 		5B8CD1FD1C0717840095A27E /* ResidentialTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResidentialTableViewCell.swift; sourceTree = "<group>"; };
-		5B8CD1FF1C07C1C90095A27E /* Lot5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lot5ViewController.swift; sourceTree = "<group>"; };
-		5B8CD2011C07C4520095A27E /* BrandywineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandywineViewController.swift; sourceTree = "<group>"; };
-		5B8CD2031C1147760095A27E /* PippinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PippinViewController.swift; sourceTree = "<group>"; };
 		5B8CD2051C1152CD0095A27E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
-		5B8CD2071C11701A0095A27E /* rsz_cpg-foods-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rsz_cpg-foods-icon.png"; sourceTree = "<group>"; };
 		5B9A3B751C3CF0B800F10524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BA8A9421C07085000D85A6F /* zotDinning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zotDinning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA8A9451C07085000D85A6F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +35,11 @@
 		5BA8A94C1C07085000D85A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BA8A9511C07085000D85A6F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BA8A9531C07085000D85A6F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4BFA1F71E1DE15D00263C6E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lot5TableViewController.swift; sourceTree = "<group>"; };
+		C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C4BFA1FD1E1DF13700263C6E /* BrandywineTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandywineTableViewController.swift; sourceTree = "<group>"; };
+		C4BFA1FF1E1DF48000263C6E /* PippinTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PippinTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,19 +73,20 @@
 			isa = PBXGroup;
 			children = (
 				5BA8A9451C07085000D85A6F /* AppDelegate.swift */,
+				C4BFA1FB1E1DEB5C00263C6E /* Constants.swift */,
 				5BA8A9471C07085000D85A6F /* FirstViewController.swift */,
 				5BA8A9491C07085000D85A6F /* SecondViewController.swift */,
 				5BA8A94B1C07085000D85A6F /* Main.storyboard */,
-				5B8CD1FF1C07C1C90095A27E /* Lot5ViewController.swift */,
-				5B8CD2011C07C4520095A27E /* BrandywineViewController.swift */,
-				5B8CD2031C1147760095A27E /* PippinViewController.swift */,
+				C4BFA1F71E1DE15D00263C6E /* Extensions.swift */,
+				C4BFA1F91E1DE74000263C6E /* Lot5TableViewController.swift */,
+				C4BFA1FD1E1DF13700263C6E /* BrandywineTableViewController.swift */,
 				5B8CD1FD1C0717840095A27E /* ResidentialTableViewCell.swift */,
-				5B8CD2071C11701A0095A27E /* rsz_cpg-foods-icon.png */,
+				C4BFA1FF1E1DF48000263C6E /* PippinTableViewController.swift */,
+				5B3715AB1C24EBE90086F736 /* RetailDisplay.swift */,
+				5B8CD2051C1152CD0095A27E /* MapViewController.swift */,
 				5BA8A9501C07085000D85A6F /* LaunchScreen.storyboard */,
 				5BA8A9531C07085000D85A6F /* Info.plist */,
 				5B9A3B751C3CF0B800F10524 /* Assets.xcassets */,
-				5B8CD2051C1152CD0095A27E /* MapViewController.swift */,
-				5B3715AB1C24EBE90086F736 /* RetailDisplay.swift */,
 			);
 			path = zotDinning;
 			sourceTree = "<group>";
@@ -151,7 +154,6 @@
 				5BA8A9521C07085000D85A6F /* LaunchScreen.storyboard in Resources */,
 				5BA8A94D1C07085000D85A6F /* Main.storyboard in Resources */,
 				5B9A3B761C3CF0B800F10524 /* Assets.xcassets in Resources */,
-				5B8CD2081C11701A0095A27E /* rsz_cpg-foods-icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,15 +164,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B8CD2021C07C4520095A27E /* BrandywineViewController.swift in Sources */,
+				C4BFA1FE1E1DF13700263C6E /* BrandywineTableViewController.swift in Sources */,
 				5BA8A94A1C07085000D85A6F /* SecondViewController.swift in Sources */,
 				5B8CD1FE1C0717840095A27E /* ResidentialTableViewCell.swift in Sources */,
+				C4BFA1FA1E1DE74000263C6E /* Lot5TableViewController.swift in Sources */,
 				5B3715AC1C24EBE90086F736 /* RetailDisplay.swift in Sources */,
+				C4BFA2001E1DF48000263C6E /* PippinTableViewController.swift in Sources */,
 				5B8CD2061C1152CD0095A27E /* MapViewController.swift in Sources */,
-				5B8CD2041C1147760095A27E /* PippinViewController.swift in Sources */,
+				C4BFA1F81E1DE15D00263C6E /* Extensions.swift in Sources */,
 				5BA8A9461C07085000D85A6F /* AppDelegate.swift in Sources */,
-				5B8CD2001C07C1C90095A27E /* Lot5ViewController.swift in Sources */,
 				5BA8A9481C07085000D85A6F /* FirstViewController.swift in Sources */,
+				C4BFA1FC1E1DEB5C00263C6E /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

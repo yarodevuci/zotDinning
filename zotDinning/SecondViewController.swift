@@ -10,14 +10,10 @@ import UIKit
 
 class SecondViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate, UISearchResultsUpdating {
     
-    
-    
     @IBOutlet weak var RetailButton: UIButton!
-    
-    
     @IBOutlet weak var TabBar: UITabBarItem!
-        
-    @IBOutlet weak var RetailTableView: UITableView!  //our TableView
+    @IBOutlet weak var RetailTableView: UITableView!
+    
     var resultSearch = UISearchController() //our UISearchbar
     //============================================================================================================//
     
@@ -139,9 +135,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if (segue.identifier == "transfer")
-        
-        {
+        if (segue.identifier == "transfer") {
             let vc = segue.destination as! RetailDisplay
             vc.titleName = selectedDLabel!
             vc.retImage = retailImages!
@@ -188,8 +182,7 @@ class SecondViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     @IBAction func residentialButton(_ sender: UIButton) {
-        let next = self.storyboard?.instantiateViewController(withIdentifier: "FirstViewController") as! FirstViewController
-        self.present(next, animated: false, completion: nil)
+        self.presentViewControllerWithNavBar(identifier: "FirstViewController", animated: false)
     }
     
     @IBAction func mapButton(_ sender: UIButton) {

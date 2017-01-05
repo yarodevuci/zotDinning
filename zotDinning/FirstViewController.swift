@@ -8,31 +8,43 @@
 
 import UIKit
 
-class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate
-    {
+class FirstViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, UITabBarDelegate {
     
     @IBOutlet weak var myButton: UIButton!
+    
     var ResidentialPlacesArray = ["Lot 5", "Brandywine", "Pippin"]
     var ResidentialImagesArray = ["Lot5.jpg", "Brandywine.jpg", "Pippin.jpg"]
     
     weak var ResTableView: UITableView!
     
-    internal func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-    {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        myButton.isEnabled = false
+        
+        navigationController?.navigationBar.barTintColor = UIColor(red:0.91, green:0.93, blue:0.93, alpha:1.0)
+        navigationController?.navigationBar.isTranslucent = false
+        navigationController?.navigationBar.tintColor = .black
+
+    }
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return ResidentialImagesArray.count
     }
     
     //Display info in our Residential cells
-    internal func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-    {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath) as! ResidentialTableViewCell
         let entry = ResidentialPlacesArray[indexPath.row]
         let image = UIImage(named: ResidentialImagesArray[indexPath.row])
         cell.backgroundImage.image = image
         cell.headingLabel.text = entry
 
-        switch indexPath.row
-        {
+        switch indexPath.row {
         case 0:
             cell.openStatus.text = displayStatusforLot5()
             if displayStatusforLot5() == "Open"
@@ -97,24 +109,18 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     //When I click on the row, magic happens)
-    internal func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-       let shortPath = (indexPath.row)
-        
-        switch shortPath {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+                
+        switch indexPath.row {
             
         case 0:
-            let next = self.storyboard?.instantiateViewController(withIdentifier: "Lot5ViewController") as! Lot5ViewController
-            self.present(next, animated: true, completion: nil)
+            self.pushViewController(withIdentifier: "Lot5TableViewController")
         case 1:
-            let nextRes = self.storyboard?.instantiateViewController(withIdentifier: "BrandywineViewController") as! BrandywineViewController
-            self.present(nextRes, animated: true, completion: nil)
-
-        case 2: 
-            let nextPippin = self.storyboard?.instantiateViewController(withIdentifier: "PippinViewController") as! PippinViewController
-            self.present(nextPippin, animated: true, completion: nil)
-            
-        default: break
+            self.pushViewController(withIdentifier: "BrandywineTableViewController")
+        case 2:
+            self.pushViewController(withIdentifier: "PippinTableViewController")
+        default:
+            break
             
         }
     }
@@ -129,16 +135,5 @@ class FirstViewController: UIViewController, UITableViewDataSource, UITableViewD
         self.present(next, animated: false, completion: nil)
         
     }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        myButton.isEnabled = false
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
